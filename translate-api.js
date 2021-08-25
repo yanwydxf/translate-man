@@ -2,7 +2,7 @@ const WebRequest = require("web-request");
 
 module.exports = {
     async _translate(keyword) {
-        let transret = keyword;
+        let transret = keyword; 
         // 获取选中的文本
         let url = "https://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i="
         if (keyword) {
